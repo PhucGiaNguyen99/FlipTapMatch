@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                startGame(5, 4);    // Start the 4x3 game
+                startGame(5, 4);    // Start the 5x4 game
             }
         });
     }
