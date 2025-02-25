@@ -1,4 +1,4 @@
-﻿# Flipping-Cards
+﻿# Phuc's Memory Matching Game
 This is a Memory Matching Game built for Android using Java and XML. 
 Features:
 - There are two modes: 4x3 (12 cards, 6 pairs) and 5x4 (20 cards, 10 pairs), where the players flip cards to find matching pairs.
