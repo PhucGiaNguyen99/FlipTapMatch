@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/tvMatches"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Matches: 0"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:id="@+id/tvMisses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Misses: 0"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp"/>
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="4"
+        android:rowCount="3"
+        android:layout_marginTop="10dp" />
+</LinearLayout>
