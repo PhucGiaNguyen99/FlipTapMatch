@@ -75,6 +75,15 @@ public class PlayGame extends AppCompatActivity {
             buttons[i] = new ImageButton(this);
             buttons[i].setBackgroundResource(R.drawable.ic_launcher_background);
             buttons[i].setOnClickListener(v -> flipCard(index));
+
+            // Define button layout parameters to ensure proper scaling
+            GridLayout.LayoutParams params = new GridLayout.LayoutParams();
+            params.width = 0;  // Allow automatic resizing
+            params.height = 0;
+            params.columnSpec = GridLayout.spec(GridLayout.UNDEFINED, 1f); // Equal column space
+            params.rowSpec = GridLayout.spec(GridLayout.UNDEFINED, 1f);    // Equal row space
+            buttons[i].setLayoutParams(params);
+
             gridLayout.addView(buttons[i]);
         }
     }
