@@ -13,7 +13,7 @@
         android:theme="@style/Theme.Project1pnguye68"
         tools:targetApi="31">
         <activity
-            android:name=".PlayGame"
+            android:name=".MainActivity"
             android:exported="true"
             android:screenOrientation="portrait">
             <intent-filter>
@@ -22,6 +22,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".PlayGame"
+            android:exported="true"
+            android:screenOrientation="portrait"/>
+
     </application>
 
 </manifest>

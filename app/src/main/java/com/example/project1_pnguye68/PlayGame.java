@@ -91,6 +91,8 @@ public class PlayGame extends AppCompatActivity {
         else {
             secondCard = gameImages[index];
             secondIndex = index;
+
+            // If both cards are matching, then setting them invisible
             if (firstCard == secondCard) {
                 // Show both cards for 1 second before making them disappear
                 new Handler().postDelayed(() -> {
@@ -99,12 +101,15 @@ public class PlayGame extends AppCompatActivity {
                 }, 1000);
 
                 matches++;
+
                 tvMatches.setText("Matches: " + matches);
+
+                // Check if the game is complete
                 if (matches == totalPairs) {
                     showGameOver();
                 }
             } else {
-                // If no match, flip them back after 1 second
+                // If not matching, flip them back after 1 second
                 new Handler().postDelayed(() -> {
                     buttons[firstIndex].setBackgroundResource(R.drawable.ic_launcher_background);
                     buttons[secondIndex].setBackgroundResource(R.drawable.ic_launcher_background);
