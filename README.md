@@ -1,4 +1,4 @@
-# FlipTapPair - Memory Matching Game  
+# FlipTapMatch - Memory Matching Game  
 **An interactive Android memory game built with Java and XML**
 
 ---
