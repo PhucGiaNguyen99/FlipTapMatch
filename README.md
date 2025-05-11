@@ -1,11 +1,11 @@
 # FlipTapMatch - Memory Matching Game  
-**An interactive Android memory game built with Java and XML**
+**A memory game built for Android using Java and XML. It features a clean, responsive UI with interactive card animations and intuitive grid layouts. Current features include board size selection and match tracking.**
 
 ---
 
 ## Overview
 
-**Memory Matching Game** is a beginner-friendly yet addictive Android app that challenges players to test their memory by flipping cards and finding matching pairs. While the current version features core game mechanics, it's just the beginning of something bigger.
+**FlipTapMatch** is a beginner-friendly yet addictive Android app that challenges players to test their memory by flipping cards and finding matching pairs. While the current version features core game mechanics, it's just the beginning of something bigger.
 
 What started as a simple project to learn Android fundamentals has now become a growing playground to explore UI design, game logic, and real-world Android features. Built with **Java**, **XML layouts**, and **ImageButtons**, this project combines clean code with interactive gameplay—and it’s only going to get better.
 
